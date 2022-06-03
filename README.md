@@ -4,7 +4,7 @@ Hello. Welcome to my investigation into the impact of a team's wage bill size on
 
 ## Inquiry
 
-<img align="right" src="https://user-images.githubusercontent.com/105253832/171916636-3a92388b-ad6b-41df-beb7-abe30c5c1987.jpeg width="400" height="400">
+<img align="right" src="https://user-images.githubusercontent.com/105253832/171916636-3a92388b-ad6b-41df-beb7-abe30c5c1987.jpeg" width="400" height="400">
 The size of a team's wage bill obviously has a great impact on how well a team performs. If a team can afford to pay the best players, they will, and will enjoy success in their domestic league. This project will look into to what extent wage bills affect domestic performance, and whether wage inequality within clubs positively or negatively affects team performance. 
 
 ## Data
