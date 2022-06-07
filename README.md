@@ -36,7 +36,7 @@ We can transform this data into a normal distribution by taking the natural log 
 This greatly improves our ability to perform linear regression analysis on the dataset. Shown below are the scatterplots of the two wage datasets (normalized and logarithmic normalized) and percent of potential points on the y-axis, as well as fitted lines. 
 
 <p float="left">
-<img src="https://user-images.githubusercontent.com/105253832/172436427-2baa7b5c-cd00-4c70-8781-ac9be2f7a0e2.png" width="320" height="200">
-<img src="https://user-images.githubusercontent.com/105253832/172436442-624a5b52-43b9-49b2-bf56-3eccb25082ac.png" width="320" height="200">
+<img src="https://user-images.githubusercontent.com/105253832/172436427-2baa7b5c-cd00-4c70-8781-ac9be2f7a0e2.png" width="480" height="300">
+<img src="https://user-images.githubusercontent.com/105253832/172436442-624a5b52-43b9-49b2-bf56-3eccb25082ac.png" width="480" height="300">
 </p>
 
