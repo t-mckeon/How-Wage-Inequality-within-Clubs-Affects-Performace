@@ -17,7 +17,7 @@ The data for this visualization comes from [Capology](https://www.capology.com/)
 
 The excel files scraped from the websites are available in the Data Tab. 
 
-## Process
+## Preparing for the Regression
 
 After combining the wage and point tally data, the first order of business is to normalize the data for each league and season. For the point tally data, we convert the nominal point tallies into percentage of potential points. We do this because some leagues (namely the Bundesliga) do not follow the relatively standard 38 game schedule. The percentage of pontential points value also allows us to discern teams that did particularly well in a certain season (say Man City's 100 point season), instead of just normalizing to the league winning side. 
 
@@ -48,12 +48,21 @@ The Gini Coefficient is usually used to measure the levels of inequality seen wi
 
 If the individual wage values of players are placed in descending order, the gini coefficient can be calculated by this equation. 
 
-<img align="center" src="https://user-images.githubusercontent.com/105253832/172438942-98b540e3-4147-46d9-880d-c670d989e88a.png" width="640" height="400">
+<img align="center" src="https://user-images.githubusercontent.com/105253832/172438942-98b540e3-4147-46d9-880d-c670d989e88a.png" width="480" height="300">
 
 
 #### Galt Score
 
 The Galt Score is simply the ratio of the salary of a company's CEO to the salary of the median worker. In our case, it is the salary of the top-paid player to the wage of the median player. This differs from the Gini Coeffecient as we are measuring if a single player can influence a team's performance with their high salary. 
 
+## Regression
 
+Single Varaible Reggression: 
+- Independant Variable: Logarithmic Normalized Salary
+- Dependant Variable: Percent of Potential Points
+
+<p float="left">
+<img src="https://user-images.githubusercontent.com/105253832/172436427-2baa7b5c-cd00-4c70-8781-ac9be2f7a0e2.png" width="480" height="300">
+<img src="https://user-images.githubusercontent.com/105253832/172441983-942febc4-944c-4120-996a-286bbf563b53.png" width="480" height="300">
+</p>
 
