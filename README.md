@@ -63,18 +63,18 @@ Single Varaible Reggression:
 
 <p float="left">
 <img src="https://user-images.githubusercontent.com/105253832/172436427-2baa7b5c-cd00-4c70-8781-ac9be2f7a0e2.png" width="480" height="300">
-<img src="https://user-images.githubusercontent.com/105253832/172441983-942febc4-944c-4120-996a-286bbf563b53.png" width="400" height="400">
+<img src="https://user-images.githubusercontent.com/105253832/172441983-942febc4-944c-4120-996a-286bbf563b53.png" width="400" height="500">
 </p>
 
 Multiple Varaible Reggression #1: 
 - Independant Variables: Logarithmic Normalized Salary, Gini Coefficient
 - Dependant Variable: Percent of Potential Points
 
-<img src="https://user-images.githubusercontent.com/105253832/172442637-e2d96ff2-9b19-4118-9b19-a3a6cc02e56d.png" width="400" height="400">
+<img src="https://user-images.githubusercontent.com/105253832/172442637-e2d96ff2-9b19-4118-9b19-a3a6cc02e56d.png" width="400" height="500">
 
 Multiple Varaible Reggression #2: 
 - Independant Variables: Logarithmic Normalized Salary, Galt Score
 - Dependant Variable: Percent of Potential Points
 
-<img src="https://user-images.githubusercontent.com/105253832/172442573-7946fa88-0c40-4a00-bd84-cab562991868.png" width="400" height="400">
+<img src="https://user-images.githubusercontent.com/105253832/172442573-7946fa88-0c40-4a00-bd84-cab562991868.png" width="400" height="500">
 
