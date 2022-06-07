@@ -78,3 +78,8 @@ Multiple Varaible Reggression #2:
 
 <img src="https://user-images.githubusercontent.com/105253832/172442573-7946fa88-0c40-4a00-bd84-cab562991868.png" width="400" height="500">
 
+## Conclusion
+
+Surprisingly, at least to me, the level of inequality within a team had a positive impact on performance in domestic leagues. Both the gini coefficient and the galt score had a p-value below 0.05, so both have a statistically significant positive impact on the percent of potential points teams achieve in domestic league competitions.
+
+
