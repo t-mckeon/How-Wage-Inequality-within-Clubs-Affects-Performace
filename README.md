@@ -33,10 +33,27 @@ We can transform this data into a normal distribution by taking the natural log 
 
 <img align="center" src="https://user-images.githubusercontent.com/105253832/172435525-2dc1ecc2-45f3-4627-82b0-bd3b742d23fc.png" width="640" height="400">
 
-This greatly improves our ability to perform linear regression analysis on the dataset. Shown below are the scatterplots of the two wage datasets (normalized and logarithmic normalized) and percent of potential points on the y-axis, as well as fitted lines. 
+This greatly improves our ability to perform linear regression analysis on the dataset, though we lose a lot of interpretability of the coefficients. Shown below are the scatterplots of the two wage datasets (normalized and logarithmic normalized) and percent of potential points on the y-axis, as well as fitted lines. 
 
 <p float="left">
 <img src="https://user-images.githubusercontent.com/105253832/172436427-2baa7b5c-cd00-4c70-8781-ac9be2f7a0e2.png" width="480" height="300">
 <img src="https://user-images.githubusercontent.com/105253832/172436442-624a5b52-43b9-49b2-bf56-3eccb25082ac.png" width="480" height="300">
 </p>
+
+We'll be running regressions on this data soon, but first we need to grab the other variable we want to test - inequality among teams. We're going to test out a couple different measures of inequality to do so. 
+
+#### Gini Coefficient
+
+The Gini Coefficient is usually used to measure the levels of inequality seen within countries, where a high value represents large concentrations of wealth among a small portion of the population. See [here](https://en.wikipedia.org/wiki/Gini_coefficient) for a full explainaition. 
+
+If the individual wage values of players are placed in descending order, the gini coefficient can be calculated by this equation. 
+
+<img align="center" src="https://user-images.githubusercontent.com/105253832/172438942-98b540e3-4147-46d9-880d-c670d989e88a.png" width="640" height="400">
+
+
+#### Galt Score
+
+The Galt Score is simply the ratio of the salary of a company's CEO to the salary of the median worker. In our case, it is the salary of the top-paid player to the wage of the median player. This differs from the Gini Coeffecient as we are measuring if a single player can influence a team's performance with their high salary. 
+
+
 
