@@ -25,6 +25,6 @@ The wage data was normalized to the highest and lowest spenders in that league a
 
 The second order of business is getting a sense of the distribution of the wage data. If we are going to run a linear regression analysis, we're going to need linear data. Let's take a look at the normalized wage data.
 
-<img align="center" src="https://user-images.githubusercontent.com/105253832/172431603-d78ff498-b76b-4cbb-8087-0d01bdab83f7.png" width="400" height="400">
+<img align="center" src="https://user-images.githubusercontent.com/105253832/172431603-d78ff498-b76b-4cbb-8087-0d01bdab83f7.png" width="640" height="400">
 
 
