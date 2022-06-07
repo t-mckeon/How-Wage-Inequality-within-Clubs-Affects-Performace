@@ -19,3 +19,12 @@ The excel files scraped from the websites are available in the Data Tab.
 
 ## Process
 
+After combining the wage and point tally data, the first order of business is to normalize the data for each league and season. For the point tally data, we convert the nominal point tallies into percentage of potential points. We do this because some leagues (namely the Bundesliga) do not follow the relatively standard 38 game schedule. The percentage of pontential points value also allows us to discern teams that did particularly well in a certain season (say Man City's 100 point season), instead of just normalizing to the league winning side. 
+
+The wage data was normalized to the highest and lowest spenders in that league and season. The data was normalized to a scale of 1.0 to 101.0.
+
+The second order of business is getting a sense of the distribution of the wage data. If we are going to run a linear regression analysis, we're going to need linear data. Let's take a look at the normalized wage data.
+
+<img align="center" src="https://user-images.githubusercontent.com/105253832/172431603-d78ff498-b76b-4cbb-8087-0d01bdab83f7.png" width="400" height="400">
+
+
